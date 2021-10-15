@@ -90,6 +90,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -147,12 +148,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="settings.cpp" />
     <ClCompile Include="VolumeFinder.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Documents\CodeProjects\SlicingStuff\Slicer1\VolumeFinder\VolumeFinder;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="slicerArgs.h" />
+    <ClInclude Include="lucasMaths.h" />
+    <ClInclude Include="settings.h" />
+    <ClInclude Include="slicerArguments.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VolumeFinder.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

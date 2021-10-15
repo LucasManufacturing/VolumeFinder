@@ -1,6 +1,6 @@
 #pragma once
 #include <string>
-using namespace std; 
+using namespace std;
 
 //==================================================
 //These are the command arguments
@@ -66,8 +66,14 @@ string sliceGcode(string modelPath, string outputDir = "NULL")
     {
         result = "--output " + outputDir + " --gcode-comments " + modelPath + " ";
     }
-    return result; 
+    return result;
 
+}
+
+string infil(string percentage)
+{
+    string result = "--fill-density " + percentage + " ";
+    return result;
 }
 
 string userModel(string path)
@@ -76,7 +82,7 @@ string userModel(string path)
     return result;
 }
 
-/* These are the slicing commands 
+/* These are the slicing commands
 Slic3r 1.3.0 is a STL - to - GCODE translator for RepRap 3D printers
 written by Alessandro Ranellucci <aar@cpan.org> -http://slic3r.org/
 
@@ -386,3 +392,4 @@ Printer options :
 
                                                                    Slic3r installed in a loclized path.Using an 8.3 path: "C:\Users\LUCASS~1\DOWNLO~1\SLIC3R~1.64B\"
 */
+
