@@ -402,7 +402,7 @@ vector<string> findUserConfigs(string path)
 int main()
 {
     programSettings defaultSettings;
-    defaultSettings.path = "settings.txt";
+    defaultSettings.path = "newSettings.txt";
     cout << "Running\n";
     cout << time(0); 
     float markup = 7.5; //Multiplier| markup * cost = price 

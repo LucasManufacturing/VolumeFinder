@@ -1,0 +1,9 @@
+=> Infilling layers
+=> Processing triangulated mesh
+=> Preparing infill
+=> Generating skirt
+=> Generating brim
+=> Exporting G-code to D:\\3dModels\\GunClub\\Revolver\ThickSpeedLoaderHolster.gcode
+Done. Process took 0 minutes and 1.867 seconds
+Filament required: 10385.3mm (25.0cm3)
+Slic3r installed in a loclized path. Using an 8.3 path: "C:\Users\LUCASS~1\DOWNLO~1\SLIC3R~1.64B\"

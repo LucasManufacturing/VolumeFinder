@@ -1,0 +1,9 @@
+=> Infilling layers
+=> Processing triangulated mesh
+=> Preparing infill
+=> Generating skirt
+=> Generating brim
+=> Exporting G-code to D:\Apache\xampp\htdocs\uploads\721440782\721440782.gcode
+Done. Process took 0 minutes and 2.630 seconds
+Filament required: 29394.5mm (70.7cm3)
+Slic3r installed in a loclized path. Using an 8.3 path: "C:\Users\LUCASS~1\DOWNLO~1\SLIC3R~1.64B\"

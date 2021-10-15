@@ -1,0 +1,15 @@
+Slic3r installed in a loclized path. Using an 8.3 path: "C:\Users\LUCASS~1\DOWNLO~1\SLIC3R~1.64B\"
+[721440782.stl]
+size_x = 43.000011
+size_y = 62.568316
+size_z = 100.000009
+min_x = -13.000000
+min_y = -8.205290
+min_z = -0.000001
+max_x = 30.000011
+max_y = 54.363026
+max_z = 100.000008
+number_of_facets = 5174
+manifold = yes
+number_of_parts =  3
+volume = 73894.812500
