@@ -402,9 +402,7 @@ vector<string> findUserConfigs(string path)
 int main()
 {
     programSettings defaultSettings;
-    defaultSettings.path = "D:\\Documents\\CodeProjects\\SlicingStuff\\newSettings.txt";
-
-
+    defaultSettings.path = "settings.txt";
     cout << "Running\n";
     cout << time(0); 
     float markup = 7.5; //Multiplier| markup * cost = price 
